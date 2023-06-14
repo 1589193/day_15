@@ -1,7 +1,17 @@
-import 'bootstrap/dist/css/bootstrap.css';
-function App() {
-  return <h1>hlo world</h1>
+import AppBody from "./pages/AppBody";
+import AppFooter from "./pages/AppFooter";
+import AppHeader from "./pages/AppHeader";
 
+// User Defined Tag: <App />
+function App() {
+  return (
+    <>
+      <AppHeader />
+      <AppBody />
+      <AppBody />
+      <AppFooter />
+    </>
+  );
 }
 
 export default App;
